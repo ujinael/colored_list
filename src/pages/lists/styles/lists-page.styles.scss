@@ -1,0 +1,14 @@
+.page{
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    padding: 1rem;
+gap: 2rem;
+grid-template-columns: repeat(2,minmax(300px,1fr));
+grid-template-rows: 1fr;
+}
+.page_component{
+    border: 1px solid black;
+    padding: 1rem;
+    overflow: auto;
+}
